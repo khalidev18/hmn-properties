@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    color: rgb(7, 218, 147);
+}
+.main1{
+    background-color: black;
+}
+.main-img{
+    width: 100%;
+    object-fit: cover;
+    height: 90vh;
+    opacity: 0.4;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.card-base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 30px 60px;
+}
+#new-card{
+    padding: 5px 0;
+}
+.founder{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card-title1{
+    margin-left:30%;
+}
+.card{
+    border-radius: 10%;
+}
+.house1{
+    width: 25%;
+    margin-left:30%;
+    /* margin-top: 20%; */
+}
+.guranties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guranties2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+#woman{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px){
+    .card-base{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .founder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .text{
+        margin-left: 25%;
+    }
+    .guranties,
+    .guranties2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    #card-center{
+        margin-left: 30%;
+    }
+
+}
